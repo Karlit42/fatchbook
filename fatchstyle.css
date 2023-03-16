@@ -1,0 +1,182 @@
+html {
+    background-color: #f0f2f5;
+}
+
+h1:hover {
+    font-size: 60px;
+}
+
+h1 {
+    color: #1877f2;
+    font-weight: 900;
+    font-size: 45px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    color: #606770;
+}
+
+hr {
+    color: lightgrey;
+    margin: 15px;
+}
+
+img {
+    height: 155px;
+    width: 155px;
+    border-top-left-radius: 5%; 
+    border-top-right-radius: 5%;
+}
+
+.container2 {
+    background-color: white;
+    width: 350px;
+    height: 330px;
+    border: solid 1px lightgrey;
+    border-radius: 8px;
+    box-shadow: 30px black;
+    margin: 80px; 
+}
+
+.compte {
+    display: block;
+    justify-content: center; 
+}
+
+.autre {
+    height: 68px;
+    width: 160px;
+    color: #1877f2;
+}
+
+figure {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+    box-shadow: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #1877f2;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    margin-bottom: 0;
+}
+
+figcaption {
+    color: black;
+    background-color: white;
+    height: 46px;
+    border: solid 1px grey ;
+    border-bottom-left-radius:10px; 
+    border-bottom-right-radius: 10px;
+    border: solid 1px lightgrey;
+    text-align: center;
+    align-content: center;
+}
+
+.oublié {
+    margin-left: 110px;
+}
+
+.créer {
+    color: black;
+} 
+
+input {
+    display: block;
+    border: #1877f2;
+    border-radius: 6px;
+    height: 50px;
+    width: 320px;
+    color: grey;
+    font-family: inherit;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.boutonbleu {
+    color: white;
+    background-color: #1877f2;
+    border-radius: 6px;
+    height: 50px;
+    width: 320px;
+ }
+/*
+.boutonvert:hover {
+    width: 100px;
+}*/
+
+.boutonvert {
+    color: white;
+    background-color: #36a420;
+    border-radius: 6px;
+    height: 50px;
+    width: 200px;
+    margin-left: 80px;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 110px;
+}
+
+.container2 p {
+    margin: 50px 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+}
+
+.bas {
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 110px;
+}
+
+footer {
+    color: grey;
+    font-size: 14px;
+}
+
+footer a {
+    color: grey;
+    padding-right: 15px;
+}  
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    height: 20px;
+    width: 32px;
+    border: solid 1px lightgrey;
+}
+
+footer p {
+    padding-right: 15px;
+}
+
+.champs {
+    border: solid 1px lightgrey;
+}
